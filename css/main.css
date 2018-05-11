@@ -10,7 +10,6 @@ body{
 }
 
 #container{
-    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -25,7 +24,19 @@ body{
 
 #header div{
     border-right: solid blanchedalmond 1px;
-    padding: 10px;
+    padding: 20px 40px 0px 40px;
+    text-align: center;
+   
+}
+
+#header div a{
+    text-decoration: none;
+    color: white;
+}
+
+#header .content-header>a:hover{
+    background: aliceblue;
+    color: #33cc33;
 }
 
 #main-title{
@@ -33,9 +44,12 @@ body{
     font-size: 30px;
     text-align: center;
     background: dodgerblue;
-    height: 200px;
-    padding-top: 20px;
+    height: 400px;
+    padding-top: 100px;
+    box-sizing: border-box;
 }
+
+
 
 #main-title h2{
     font-size: 20px;
