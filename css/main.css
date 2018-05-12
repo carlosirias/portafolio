@@ -16,14 +16,15 @@ body{
 #header{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    background: #33cc33;
+    background: #f7f8f9;
     font-size: 40px;
     height: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 #header div{
-    border-right: solid blanchedalmond 1px;
+    border-right: solid dodgerblue 1px;
     padding: 20px 40px 0px 40px;
     text-align: center;
    
@@ -31,12 +32,13 @@ body{
 
 #header div a{
     text-decoration: none;
-    color: white;
+    color: #393b3f;
 }
 
-#header .content-header>a:hover{
-    background: aliceblue;
-    color: #33cc33;
+#header .content-header:hover{
+    background: dodgerblue;
+    opacity: 0.5;
+    
 }
 
 #main-title{
@@ -56,3 +58,23 @@ body{
 
 }
 
+#projects{
+    height: 800px;
+    background: #393b3f;
+}
+
+
+#about{
+    height: 800px;
+    background: #fff;
+}
+
+#contact{
+    height: 800px;
+    background: #393b3f;
+}
+
+#footer{
+    height: 400px;
+    background: #fff
+}
