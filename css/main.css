@@ -52,6 +52,20 @@ body{
 }
 
 
+#main-title:after {
+    border-top: 80px solid #0099CC;
+    border-left: 60px solid transparent; 
+    border-right: 60px solid transparent; 
+    bottom: 140px;
+    content: "";
+    position: absolute;
+    left: 45%;
+    margin-left: 16px;
+    width: 0; 
+    height: 0;
+}
+
+
 
 #main-title h2{
     font-size: 20px;
@@ -61,17 +75,36 @@ body{
 #projects{
     height: 800px;
     background: #393b3f;
+    text-align: center;
 }
 
+#projects h2{
+    font-size: 25px;
+    color: #fff;
+    padding: 100px;
+}
 
 #about{
     height: 800px;
     background: #fff;
+    text-align: center;
+}
+
+#about h2{
+    font-size: 25px;
+    padding: 100px;
 }
 
 #contact{
     height: 800px;
     background: #393b3f;
+    text-align: center;
+}
+
+#contact h2{
+    font-size: 25px;
+    color: #fff;
+    padding: 100px;
 }
 
 #footer{
